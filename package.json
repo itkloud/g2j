@@ -1,0 +1,33 @@
+{
+  "name": "g2j",
+  "version": "0.0.1",
+  "description": "google spreadsheet to json",
+  "main": "src/index.js",
+  "bin": {
+    "g2j": "bin/g2j.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itkloud/g2j.git"
+  },
+  "keywords": [
+    "json",
+    "spreadsheet",
+    "google",
+    "i18n",
+    "i18next",
+    "polyglot"
+  ],
+  "author": "andressh <andres.sanchez@itkloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itkloud/g2j/issues"
+  },
+  "homepage": "https://github.com/itkloud/g2j#readme",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
