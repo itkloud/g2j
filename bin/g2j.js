@@ -1,13 +1,4 @@
-const { program } = require('commander');
-const packageJSON = require('../package.json');
+#!/usr/bin/env node
 
-try {
-    program
-    .version(packageJSON.version, '-v, --version')
-    .usage('<itkloud-api-key> [options]')
-    .parse(process.argv);
-
-    console.log('g2j!');
-} catch (error) {
-    console.error(error);
-}
+// src/index.ts
+console.log("\xA1Hola desde tu CLI en TypeScript!");
